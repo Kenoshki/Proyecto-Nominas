@@ -1,0 +1,22 @@
+# Dependencias y entornos
+node_modules/
+venv/
+__pycache__/
+*.pyc
+dist/
+
+# Secretos locales
+.env
+.env.*
+!.env.example
+
+# Herramientas ajenas al sistema
+C:MCPdata/
+Anthropic-Cybersecurity-Skills/
+install.ps1
+/package.json
+/package-lock.json
+
+# Pruebas / bases locales
+*.db
+.pytest_cache/

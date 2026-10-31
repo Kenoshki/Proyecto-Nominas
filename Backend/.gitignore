@@ -1,0 +1,9 @@
+# Entorno virtual y dependencias
+venv/
+__pycache__/
+*.pyc
+
+# Archivos de entorno locales (muy importante)
+.env
+.env.*
+!.env.example
